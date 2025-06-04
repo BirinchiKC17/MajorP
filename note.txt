@@ -1,0 +1,5 @@
+git add .
+git commit -m "Some update"
+git pull origin main --rebase   # update your local branch with remote changes
+# resolve conflicts if any, then:
+git push origin main
